@@ -1,7 +1,14 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "main";
+@import "footer";
 
 body {
   background: $c-gray;
+}
+
+.container {
+  width: 1200px;
 }
