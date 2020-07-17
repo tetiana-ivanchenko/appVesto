@@ -1,0 +1,19 @@
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px 65px;
+  &__link {
+    &:nth-child(6) {
+      margin-right: 690px;
+    }
+  }
+  &__logo {
+    width: 35px;
+    transition: 1s ease-in-out;
+    &:nth-child(6) {
+      margin-right: 690px;
+    }
+  }
+
+}
