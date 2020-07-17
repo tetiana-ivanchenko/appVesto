@@ -1,1 +1,14 @@
+.header {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 47px;
+  &__logo:first-child {
+    width: 180px;
+  }
 
+  &__logo:last-child {
+    width: 213px;
+  }
+}

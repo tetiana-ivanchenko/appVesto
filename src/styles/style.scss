@@ -6,9 +6,15 @@
 @import "footer";
 
 body {
-  background: $c-gray;
+  background: #ccc;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 .container {
   width: 1200px;
+  margin: auto;
 }
