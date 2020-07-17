@@ -20,9 +20,16 @@ h1 {
           justify-content: space-between;
   padding: 0 47px; }
   .header__logo:first-child {
-    width: 180px; }
+    width: 180px;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
   .header__logo:last-child {
-    width: 213px; }
+    width: 213px;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
+  .header__logo:first-child:hover, .header__logo:last-child:hover {
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg); }
 
 .main {
   font-family: "Heebo", sans-serif;
@@ -98,6 +105,9 @@ h1 {
     transition: 1s ease-in-out; }
     .footer__logo:nth-child(6) {
       margin-right: 690px; }
+    .footer__logo:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
 
 body {
   background: #ccc;
