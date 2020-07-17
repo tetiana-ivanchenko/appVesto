@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap");
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.header {
+  height: 60px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 47px; }
+  .header__logo:first-child {
+    width: 180px; }
+  .header__logo:last-child {
+    width: 213px; }
+
+.main {
+  font-family: "Heebo", sans-serif;
+  text-align: right;
+  line-height: 28px; }
+  .main__contant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 45px 45px 0; }
+  .main__logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
+    .main__logo:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
+  .main__title {
+    font-weight: 500;
+    font-size: 24px; }
+  .main__date {
+    font-weight: 300;
+    font-size: 14px; }
+  .main__descr {
+    font-size: 18px; }
+  .main__pict {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 22px 50px; }
+  .main__white {
+    height: 466px;
+    width: 330px;
+    background-color: #fff; }
+  .main__black {
+    width: 770px;
+    height: 433px;
+    background-color: black; }
+  .main__name {
+    width: 770px;
+    height: 33px;
+    background-color: #3fa9f5;
+    position: relative;
+    top: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center; }
+
+body {
+  background: #ccc;
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+.container {
+  width: 1200px;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
