@@ -6,9 +6,16 @@
   padding: 0 47px;
   &__logo:first-child {
     width: 180px;
+    transition: 1s ease-in-out;
   }
 
   &__logo:last-child {
     width: 213px;
+    transition: 1s ease-in-out;
+  }
+
+  &__logo:first-child:hover,
+  &__logo:last-child:hover {
+    transform: skew(-15deg);
   }
 }
