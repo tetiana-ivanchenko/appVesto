@@ -28,8 +28,8 @@ h1 {
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out; }
   .header__logo:first-child:hover, .header__logo:last-child:hover {
-    -webkit-transform: skew(-15deg);
-            transform: skew(-15deg); }
+    -webkit-transform: skew(-5deg);
+            transform: skew(-5deg); }
 
 .main {
   font-family: "Heebo", sans-serif;
@@ -53,8 +53,8 @@ h1 {
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out; }
     .main__logo:hover {
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
   .main__title {
     font-weight: 500;
     font-size: 24px; }
@@ -88,8 +88,6 @@ h1 {
     text-align: center; }
 
 .footer {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +115,9 @@ p {
   margin: 0; }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
